@@ -3,8 +3,8 @@ import pandas as pd
 
 filedir = '../../model/'
 filename = {
-        'model': 'model_all_r100134e7963.h5',
-        'weight': 'model_weights_all_r100134e7963.h5',
+        'model': 'model_all_r%s%se%s.h5',
+        'weight': 'model_weights_all_r%s%se%s.h5',
         }
 img_para={'dim1':100,
           'dim2':134}
